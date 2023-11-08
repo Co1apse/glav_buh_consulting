@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .services__info {
     text-align: left;
-    width: 30%;
+    width: 29%;
     margin: 20px;
 }
 
@@ -161,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .services__info p {
-    width: 80%;
+    width: 90%;
     padding: 0 7px 0 7px;
 }
 
