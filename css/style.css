@@ -141,8 +141,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .services__info {
     text-align: left;
-    max-width: 30%;
-    min-width: 28%;
+    width: 29%;
     margin: 20px;
 }
 
