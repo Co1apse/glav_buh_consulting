@@ -50,10 +50,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-#border {
-    height: 600px;
-}
-
 /* Header */
 
 .bc-img {
@@ -61,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
-    height: 700px;
+    height: 75vh;
 }
 
 .logo {
@@ -145,7 +141,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .services__info {
     text-align: left;
-    width: 29%;
+    max-width: 30%;
+    min-width: 28%;
     margin: 20px;
 }
 
