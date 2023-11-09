@@ -47,9 +47,13 @@
         background-position: center center;
     }
 
+    #news .container {
+        max-width: 54%;
+        margin-top: 10px;
+    }
 
     .container {
-        max-width: 80%;
+        max-width: 100%;
         margin: 0 auto;
         height: auto;
     }
@@ -57,7 +61,7 @@
     .logo {
         width: 30%;
         padding: 0;
-        margin: 10px auto 0;
+        margin: 10px 0 0 20px;
     }
 
     .fixed__link {
@@ -104,7 +108,7 @@
     }
 
     .link__wrap a {
-        font-size: 12px;
+        font-size: 15px;
         font-weight: 500;
     }
 
@@ -200,12 +204,12 @@
         box-shadow: 0 4px 12px rgba(0,0,0,0.2), 0 16px 20px rgba(0,0,0,0.2);
         color: #fff;
         cursor: pointer;
-        padding: 12px 20px;
+        padding: 5px 10px;
 
 
         right: 20px;
         z-index: 99999999;
-        font-size: 13px;
+        font-size: 15px;
         font-weight: bold;
         line-height: 20px;
         font-family: 'Open Sans', sans-serif;
@@ -213,6 +217,13 @@
         transition: all 0.4s ease-in-out;
     }
 
+    .contact-btn:hover {
+        background-color: #ffffff;
+        color: #337AB7;
+    }
+    .contact-btn:focus {
+        outline: none;
+    }
 
     .news {
         width: 100%;
@@ -220,7 +231,7 @@
     }
 
     .footer-logo {
-        display: none;
+    margin-left: 25px;
     }
 
     .phone {
@@ -233,6 +244,20 @@
         font-size: 12px;
     }
 
+    .footer__contact {
+        width: 100%;
+        margin-top: 80px;
+
+        background-color: #f0f0f0;
+        padding: 20px 0 40px 0;
+    }
+
+
+    .read__next a{
+        font-weight: 500;
+        font-size: 16px;
+    }
+
     .footer {
         font-weight: 500;
         font-size: 12px;
@@ -240,6 +265,18 @@
 
     .footer p {
         margin-left: 10px;
+    }
+
+    .email {
+        margin-right: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
 
 }
@@ -261,6 +298,16 @@
         width: 100%;
         padding: 0;
         margin: 0 auto;
+    }
+
+    .news {
+        width: 100%;
+        margin: 25px auto 0;
+    }
+
+    #news .container {
+        max-width: 90%;
+        margin-top: 10px;
     }
 
     .contact-container.visible {
@@ -297,7 +344,7 @@
 
     .footer p {
         margin-left: 10px;
-
+        margin-right: 10px;
     }
 
 
@@ -369,6 +416,15 @@
         text-transform: uppercase;
         transition: all 0.4s ease-in-out;
     }
+
+    .contact-btn:hover {
+        background-color: #ffffff;
+        color: #337AB7;
+    }
+    .contact-btn:focus {
+        outline: none;
+    }
+
 
 
 }
