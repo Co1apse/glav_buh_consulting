@@ -225,11 +225,6 @@
         outline: none;
     }
 
-    .news {
-        width: 100%;
-        margin: 25px auto 0;
-    }
-
     .footer-logo {
     margin-left: 25px;
     }
@@ -278,6 +273,22 @@
         flex-direction: row;
         justify-content: space-between;
     }
+
+    .news__block {
+        width: 100%;
+       }
+
+    #news .container {
+        max-width: 80%;
+        margin-top: 10px;
+        max-width: 400px;
+    }
+
+    .news {
+        width: 100%;
+        margin: 25px auto 0;
+    }
+
 
 }
 
