@@ -291,7 +291,7 @@
 
     .news h3 {
         padding: 10px 0 10px 10px;
-        height: 60px;
+        height: 100px;
     }
 
 }
@@ -302,6 +302,12 @@
 /*  small  */
 
 @media screen and (max-width: 480px) {
+
+    .news h3 {
+        padding: 10px 0 10px 10px;
+        font-weight: 600;
+        font-size: 14px;
+    }
 
     .logo {
         width: 30%;
