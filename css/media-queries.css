@@ -304,6 +304,12 @@
         font-size: 14px;
     }
 
+    .link__wrap a {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+
     .logo {
         width: 30%;
         padding: 0;
