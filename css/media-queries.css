@@ -437,6 +437,18 @@
 
 @media screen and (width < 500px) {
 
+    header {
+        width: 100%;
+        height: 300px;
+
+        margin: 0;
+        padding: 0;
+
+        background-image: url('/assets/head-img.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
     .news h3 {
         padding: 10px 0 10px 10px;
         font-weight: 600;
