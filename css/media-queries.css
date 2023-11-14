@@ -44,6 +44,11 @@
     .footer__contact {
         padding-bottom: 25px;
     }
+
+    .footer-logo {
+        padding-top: 8px;
+    }
+
 }
 
 
@@ -181,6 +186,7 @@
         padding-right: 10px;
         margin-top: 10px;
     }
+
 
     .bc-img {
         display: flex;
@@ -438,8 +444,15 @@
     }
 
     .link__wrap a {
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 500;
+    }
+
+    .fixed__link {
+        display: flex;
+        flex-wrap: wrap;
+        padding-right: 10px;
+        margin-top: 10px;
     }
 
 
@@ -449,10 +462,30 @@
         margin: 15px 0 0 5px;
     }
 
+    .link__wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
     .container {
         width: 100%;
         padding: 0;
         margin: 0 auto;
+    }
+
+    .title__section p {
+        width: 80%;
+        margin-top: 1.2%;
+    }
+
+    .services__info {
+        text-align: left;
+        width: 100%;
+        margin: 20px;
+    }
+
+    .distance {
+        padding: 0 10px 0 10px;
     }
 
     .news {
