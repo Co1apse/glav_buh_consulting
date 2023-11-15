@@ -17,10 +17,6 @@
         padding: 15px 0 15px 0;
     }
 
-    .footer__contact {
-        padding-bottom: 25px;
-    }
-
     title__section p {
         width: 35%;
         margin-top: 10px;
@@ -150,9 +146,6 @@
         padding-bottom: 25px;
     }
 
-    .footer-logo {
-        padding-top: 8px;
-    }
 
 }
 
@@ -445,10 +438,7 @@
         outline: none;
     }
 
-    .footer-logo {
-    margin: 5px 0 0 5px;
-        padding: 0;
-    }
+
 
     .phone {
         margin-left: 5px;

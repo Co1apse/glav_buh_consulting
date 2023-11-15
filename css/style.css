@@ -218,13 +218,11 @@ section .container h2 {
     margin-top: 80px;
 
     background-color: #f0f0f0;
-    padding: 20px 0 80px 0;
+    padding: 20px 0 20px 0;
 }
 
 .footer-logo {
     width: 25%;
-
-    padding-top: 30px;
 }
 
 .row {
