@@ -20,6 +20,63 @@
     .footer__contact {
         padding-bottom: 25px;
     }
+
+    title__section p {
+        width: 35%;
+        margin-top: 10px;
+
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    section .container h2 {
+        margin: 40px 0 40px 0;
+        padding: 0;
+        font-weight: 500;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+
+    .services__info h3 {
+        padding: 0 7px 10px 7px;
+
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    #news .container {
+        max-width: 93%;
+        margin: 0 auto;
+    }
+
+    .services__info p {
+        width: 90%;
+        padding: 0 7px 0 7px;
+
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .news h3 {
+        padding: 10px 0 0 10px;
+
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .indentation {
+        margin: 0;
+    }
+
+    .news {
+        width: 24%;
+        padding: 15px 15px 15px 15px;
+    }
+
+    .news p {
+        font-size: 16px;
+        font-weight: 400;
+    }
 }
 
 
