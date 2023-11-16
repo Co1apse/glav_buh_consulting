@@ -12,11 +12,6 @@
         margin: 0 auto;
     }
 
-    .news {
-        width: 20%;
-        padding: 15px 0 15px 0;
-    }
-
     title__section p {
         width: 35%;
         margin-top: 10px;
@@ -65,8 +60,10 @@
     }
 
     .news {
-        width: 24%;
+        width: 20%;
         padding: 15px 15px 15px 15px;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 
     .news p {
