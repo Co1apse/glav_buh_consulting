@@ -31,3 +31,28 @@
 .indentation {
     margin: 25px 0 auto;
 }
+
+
+.pages {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 200px;
+    margin: 0 auto;
+}
+
+.numeric {
+    margin: 20px 5px 20px 5px;
+}
+
+.numeric:hover {
+    color: #00f7ff;
+    transition: opacity .3s linear;
+}
+
+.active {
+    color: rgb(255, 92, 43);
+}
+.active:hover {
+    color: rgb(255, 92, 43);
+}
