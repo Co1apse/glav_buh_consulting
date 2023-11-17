@@ -7,6 +7,10 @@
         min-width: 1400px;
     }
 
+    #services .container h2 {
+        margin-bottom: 5px;
+    }
+
     #news .container {
         max-width: 90%;
         margin: 0 auto;
@@ -86,6 +90,10 @@
         padding: 0;
     }
 
+    #services .container h2 {
+        margin-bottom: 5px;
+    }
+
     .title__section p {
         width: 35%;
         margin-top: 10px;
@@ -163,6 +171,10 @@
         min-width: 1400px;
     }
 
+    #services .container h2 {
+        margin-bottom: 5px;
+    }
+
     #news .container {
         max-width: 90%;
         margin: 0 auto;
@@ -200,6 +212,10 @@
         min-width: 1000px;
     }
 
+    #services .container h2 {
+        margin-bottom: 5px;
+    }
+
     section .container h2 {
         margin: 40px 0 20px 0;
         padding: 0;
@@ -228,6 +244,10 @@
 
     .logo {
         width: 25%;
+    }
+
+    #services .container h2 {
+        margin-bottom: 5px;
     }
 
     .container {
@@ -285,6 +305,10 @@
 /* tablet */
 
 @media (min-width: 500px ) and (max-width: 767px) {
+
+    #services .container h2 {
+        margin-bottom: 5px;
+    }
 
     header {
         width: 100%;
@@ -573,6 +597,10 @@
 /* mobile */
 
 @media screen and (width < 500px) {
+
+    #services .container h2 {
+        margin-bottom: 5px;
+    }
 
     header {
         width: 100%;
