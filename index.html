@@ -294,16 +294,15 @@
 
 
 
-<section id="reviews" class="testimonials review">
+<section id="reviews" class="testimonials review domino">
 
     <div class="container">
 
         <div class="section__header">
-            <h1> Відгуки </h1>
+            <h2> Відгуки </h2>
         </div>
 
-        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30"
-                          slides-per-view="3">
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30" autoplay-delay="2500" autoplay-disable-on-interaction="false" slides-per-view="3">
 
 <!---------------------------1-------------------------->
 
@@ -399,6 +398,8 @@
 
         </swiper-container>
 
+
+
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
     </div>
 
@@ -414,11 +415,10 @@
         <div class="container">
 
             <div class="section__header">
-                <h1> Наша команда </h1>
+                <h2> Наша команда </h2>
             </div>
 
-            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30"
-                              slides-per-view="3">
+            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30" autoplay-delay="2500" autoplay-disable-on-interaction="false" slides-per-view="3">
 
                 <!---------------------------1-------------------------->
 
@@ -467,7 +467,6 @@
 
                 <!-------------------------6---------------------------->
 
-
             </swiper-container>
 
             <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
@@ -478,23 +477,27 @@
 
 
 <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script>
+        const progressCircle = document.querySelector(".autoplay-progress svg");
+        const progressContent = document.querySelector(".autoplay-progress span");
         const swiper = new Swiper('.js-testimonials-slider', {
-          grabCursor: true,
-
-                spaceBetweel:30,
-
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
                 pagination: {
                       el:'.js-testimonials-pagination',
                         clickable: true
                 },
-                breakpoint: {
-                      767:{
-                          slidePerView:2
-                  }
-
+            on: {
+                autoplayTimeLeft(s, time, progress) {
+                    progressCircle.style.setProperty("--progress", 1 - progress);
+                    progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+                }
             }
         });
     </script>
