@@ -15,6 +15,13 @@
   <link rel="stylesheet" href="css/media-queries.css" type="text/css">
 
 
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+
+
     <!-- Link of icons -->
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -30,9 +37,17 @@
             <a href="index.html">
                 <img src="assets/logo-bleck.png" alt="">
             </a>
+    </div>
+
+        <button class="contact-btn">Контакты</button>
+
+        <div class="menu-btn">
+            <span></span>
+            <span></span>
+            <span></span>
         </div>
 
-        <nav class="fixed__link">
+        <nav class="fixed__link menu">
             <ul class="link__wrap">
 
 
@@ -58,17 +73,38 @@
                 </li>
 
 
+                <li class="distance">
+                   <a href="#reviews">
+                       Відгуки
+                   </a>
+                </li>
+
+                <li class="distance">
+                    <a href="#team">
+                        Наша Команда
+                    </a>
+                </li>
+
+
             </ul>
 
-            <button class="contact-btn">Контакты</button>
+
 
         </nav>
 
+        <script>
+            let menuBtn = document.querySelector('.menu-btn');
+            let menu = document.querySelector('.menu');
+
+            menuBtn.addEventListener('click', function(){
+                menuBtn.classList.toggle('active');
+                menu.classList.toggle('active');
+            })
+        </script>
 
 
 
     </div>
-
 
 </header>
 
@@ -242,8 +278,6 @@
             </div>
 
 
-
-
             <!-- Read next -->
 
             <div class="read__next">
@@ -252,6 +286,218 @@
 
         </div>
     </section>
+
+
+<!------------------------------------------------------------>
+
+    <link rel="stylesheet" href="css/slider.css">
+
+
+
+<section id="reviews" class="testimonials review">
+
+    <div class="container">
+
+        <div class="section__header">
+            <h1> Відгуки </h1>
+        </div>
+
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30"
+                          slides-per-view="3">
+
+<!---------------------------1-------------------------->
+
+            <swiper-slide>
+                <img src="assets/reviews/LaserPro.png" alt="">
+                    <p>
+                        "Очень довольны сотрудничеством с данной бухгалтерской компанией. Профессиональный и ответственный подход к работе, всегда оперативные ответы на наши вопросы. Рекомендуем!"
+                    </p>
+            </swiper-slide>
+
+            <!--------------------------2--------------------------->
+
+            <swiper-slide>
+                <img src="assets/reviews/business_logo.png" alt="">
+                <p>
+                    "Отличная бухгалтерия! Работаем с ними уже несколько лет и всегда остаемся довольными качеством услуг. Надежные специалисты, всегда на связи, всегда на высоте."
+                </p>
+            </swiper-slide>
+
+            <!---------------------------3-------------------------->
+
+            <swiper-slide>
+                <img src="assets/reviews/Ranok-vidrodzhennya-1200x851.jpg" alt="">
+                <p>
+                    "Профессионализм на высшем уровне! Благодаря этой компании мы смогли сэкономить много времени и избежать многих сложностей с налоговой отчетностью. Спасибо за ваш труд!"
+                </p>
+            </swiper-slide>
+
+            <!---------------------------4-------------------------->
+
+            <swiper-slide>
+                <img src="assets/reviews/Ranok-vidrodzhennya-1200x851.jpg" alt="">
+                <p>
+                    "Бухгалтеры этой компании – настоящие эксперты в своем деле. Всегда внимательны к деталям, всегда готовы помочь и разъяснить сложные моменты. Рекомендуем для всех бизнесов!"
+                </p>
+            </swiper-slide>
+
+            <!--------------------------5--------------------------->
+
+            <swiper-slide>
+                <img src="assets/reviews/Ranok-vidrodzhennya-1200x851.jpg" alt="">
+                <p>
+                    "Сотрудничество с бухгалтерской компанией стало для нас настоящим подарком. Эффективное ведение документации, своевременные отчеты, прозрачные условия сотрудничества. Спасибо за ваш труд!"
+                </p>
+            </swiper-slide>
+
+            <!-------------------------6---------------------------->
+
+            <swiper-slide>
+                <img src="assets/reviews/Ranok-vidrodzhennya-1200x851.jpg" alt="">
+                <p>
+                    "Профессионализм, надежность, оперативность – вот три основных качества, которые мы выделяем в работе этой компании. Отличные специалисты, готовые решать задачи любой сложности."
+                </p>
+            </swiper-slide>
+
+            <!-------------------------7---------------------------->
+
+            <swiper-slide>
+                <img src="assets/reviews/Ranok-vidrodzhennya-1200x851.jpg" alt="">
+                <p>
+                    "Спасибо за отличную работу! Бухгалтеры всегда в курсе последних изменений в законодательстве, оперативно реагируют на наши запросы. Мы довольны сотрудничеством!"
+                </p>
+            </swiper-slide>
+
+            <!-------------------------8---------------------------->
+
+            <swiper-slide>
+                <img src="assets/reviews/Ranok-vidrodzhennya-1200x851.jpg" alt="">
+                <p>
+                    "Компания, на которую можно полагаться! Профессиональные бухгалтеры, готовые взять на себя все хлопоты по ведению учета. Мы ценим вашу ответственность и компетентность."
+                </p>
+            </swiper-slide>
+
+            <!-------------------------9---------------------------->
+
+            <swiper-slide>
+                <img src="assets/reviews/Ranok-vidrodzhennya-1200x851.jpg" alt="">
+                <p>
+                    "Сотрудничество с данной бухгалтерской фирмой позволяет нам сосредотачиваться на развитии бизнеса
+                </p>
+            </swiper-slide>
+
+            <!-------------------------10---------------------------->
+
+            <swiper-slide>
+                <img src="assets/reviews/Ranok-vidrodzhennya-1200x851.jpg" alt="">
+                <p>
+                    "Бухгалтеры этой компании – настоящие профессионалы своего дела. Всегда оперативные, всегда готовы помочь, всегда соблюдают сроки. Рекомендуем для тех, кто ценит качество!"
+                </p>
+            </swiper-slide>
+
+            <!-------------------------11---------------------------->
+
+        </swiper-container>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    </div>
+
+</section>
+
+
+
+
+
+
+    <section id="team" class="testimonials team">
+
+        <div class="container">
+
+            <div class="section__header">
+                <h1> Наша команда </h1>
+            </div>
+
+            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" space-between="30"
+                              slides-per-view="3">
+
+                <!---------------------------1-------------------------->
+
+                <swiper-slide class="filter">
+                    <img src="assets/team/Irina.jpg" alt="">
+                    <p>
+                        "Очень довольны сотрудничеством с данной бухгалтерской компанией. Профессиональный и ответственный подход к работе, всегда оперативные ответы на наши вопросы. Рекомендуем!"
+                    </p>
+                </swiper-slide>
+
+                <!--------------------------2--------------------------->
+
+                <swiper-slide class="filter">
+                    <img src="assets/team/Julia.jpg" alt="">
+                    <p>
+                        "Отличная бухгалтерия! Работаем с ними уже несколько лет и всегда остаемся довольными качеством услуг. Надежные специалисты, всегда на связи, всегда на высоте."
+                    </p>
+                </swiper-slide>
+
+                <!---------------------------3-------------------------->
+
+                <swiper-slide class="filter">
+                    <img src="assets/reviews/Ranok-vidrodzhennya-1200x851.jpg" alt="">
+                    <p>
+                        "Профессионализм на высшем уровне! Благодаря этой компании мы смогли сэкономить много времени и избежать многих сложностей с налоговой отчетностью. Спасибо за ваш труд!"
+                    </p>
+                </swiper-slide>
+
+                <!---------------------------4-------------------------->
+
+                <swiper-slide class="filter">
+                    <img src="assets/reviews/Ranok-vidrodzhennya-1200x851.jpg" alt="">
+                    <p>
+                        "Бухгалтеры этой компании – настоящие эксперты в своем деле. Всегда внимательны к деталям, всегда готовы помочь и разъяснить сложные моменты. Рекомендуем для всех бизнесов!"
+                    </p>
+                </swiper-slide>
+
+                <!--------------------------5--------------------------->
+
+                <swiper-slide class="filter">
+                    <img src="assets/reviews/Ranok-vidrodzhennya-1200x851.jpg" alt="">
+                    <p>
+                        "Сотрудничество с бухгалтерской компанией стало для нас настоящим подарком. Эффективное ведение документации, своевременные отчеты, прозрачные условия сотрудничества. Спасибо за ваш труд!"
+                    </p>
+                </swiper-slide>
+
+                <!-------------------------6---------------------------->
+
+
+            </swiper-container>
+
+            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+        </div>
+
+    </section>
+
+
+
+<script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.js-testimonials-slider', {
+          grabCursor: true,
+
+                spaceBetweel:30,
+
+                pagination: {
+                      el:'.js-testimonials-pagination',
+                        clickable: true
+                },
+                breakpoint: {
+                      767:{
+                          slidePerView:2
+                  }
+
+            }
+        });
+    </script>
 
 
 </main>

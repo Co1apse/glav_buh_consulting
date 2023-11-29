@@ -1,0 +1,64 @@
+
+
+.testimonials {
+    padding: 0;
+}
+
+.section__header {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: #1c1c1c;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.mySwiper {
+    height: 400px;
+}
+
+swiper-slide img {
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 10px;
+
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+swiper-slide:hover {
+    background-color: #f0f0f0;;
+    transition: linear .25s;
+}
+
+.review {
+    margin-top: 20px;
+}
+
+.team {
+    margin-top: 50px;
+}
+
+.filter {
+    filter: grayscale(1);
+}
+
+
+.filter:hover {
+    filter: grayscale(0);
+}
