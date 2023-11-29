@@ -1,6 +1,4 @@
 /* 4k*/
-
-
 @media  (min-width: 2100px) and (max-width: 2560px) {
     .news__block {
         width: 100%;
@@ -80,9 +78,6 @@
     }
 }
 
-
-
-
 @media  (min-width: 1651px) and (max-width: 2100px) {
     .news__block {
         width: 100%;
@@ -158,8 +153,6 @@
 
 }
 
-
-
 @media  (min-width: 1501px) and (max-width: 1650px) {
 
     .news__block {
@@ -198,9 +191,7 @@
 
 }
 
-
 /* laptop L*/
-
 @media  (min-width: 1025px) and (max-width: 1500px) {
 
     .news__block {
@@ -233,9 +224,7 @@
 
 }
 
-
 /* laptop */
-
 @media (min-width: 768px) and (max-width: 1024px) {
 
     .news img {
@@ -304,9 +293,7 @@
 
 }
 
-
 /* tablet */
-
 @media (min-width: 500px ) and (max-width: 767px) {
 
 
@@ -599,9 +586,7 @@
 
 }
 
-
 /* mobile */
-
 @media screen and (width < 500px) {
 
     .news img {
@@ -849,7 +834,6 @@
 
 
 }
-
 @media (width > 360px) and (width < 400px){
     .news img {
         width: 100%;
@@ -858,7 +842,6 @@
     }
 
 }
-
 @media screen and (width < 360px) {
     .news img {
         width: 100%;
