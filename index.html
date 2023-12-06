@@ -24,7 +24,7 @@
     <div class="bc-img">
         <div class="logo">
             <a href="index.html">
-                <img src="assets/logo-bleck.png" alt="">
+                <img src="assets/logo/logo-bleck.png" alt="">
             </a>
     </div>
 
@@ -279,7 +279,7 @@
                 <div class="news">
                     <img src="assets/news/6.jpg" alt="" style="height: 80%">
 
-                    <h3>Граничний термін реєстрації ПН та РК за жовтень</h3>
+                    <h3>Граничний термін сплати податків</h3>
 
                 </div>
 
@@ -359,7 +359,7 @@
             <!-------------------------6---------------------------->
 
             <swiper-slide>
-                <img src="assets/reviews/ReliableTechnologies.png" alt="">
+                <img src="assets/reviews/ReliableTechnologies.png" alt="" style="width: 165px; height: 85px;">
                 <p>
                     "Профессионализм, надежность, оперативность – вот три основных качества, которые мы выделяем в работе этой компании. Отличные специалисты, готовые решать задачи любой сложности."
                 </p>
@@ -493,7 +493,7 @@
     <div class="footer__contact">
         <div class="container row">
             <div class="footer-logo">
-                <img src="assets/logo-bleck.png" alt="">
+                <img src="assets/logo/logo-bleck.png" alt="">
             </div>
 
 
@@ -562,15 +562,17 @@
 
 
 
+
+
+
     <!--  Burger-menu -->
+    let menuBtn = document.querySelector('.menu-btn');
+    let menu = document.querySelector('.menu');
 
-        let menuBtn = document.querySelector('.menu-btn');
-        let menu = document.querySelector('.menu');
-
-        menuBtn.addEventListener('click', function(){
+    menuBtn.addEventListener('click', function(){
         menuBtn.classList.toggle('active');
         menu.classList.toggle('active');
-    })
+    });
 
 
     <!-- Slider -->
