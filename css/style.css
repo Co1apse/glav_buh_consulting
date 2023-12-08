@@ -243,8 +243,6 @@ section .container h2 {
 }
 
 .news img {
-    width: 100%;
-    height: 85%;
     border-radius: 15px;
 }
 
