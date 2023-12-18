@@ -67,7 +67,7 @@
 
     .news {
         width: 22.5%;
-        padding: 15px 15px 0 15px;
+        padding: 15px 15px 5px 15px;
     }
 
     .news p {
@@ -146,7 +146,7 @@
 
     .news {
         width: 23%;
-        padding: 15px 15px 0 15px;
+        padding: 15px 15px 5px 15px;
     }
 
     .news p {
@@ -326,8 +326,10 @@
     }
 
     .news img {
-        max-width: 415px;
-        max-height: 405px;
+        max-width: 320px;
+        min-width: 320px;
+        max-height: 330px;
+        min-height: 330px;
         border-radius: 15px;
     }
 

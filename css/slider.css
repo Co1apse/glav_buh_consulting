@@ -33,6 +33,7 @@ swiper-slide p {
 
 .mySwiper {
     height: 380px;
+    width: 92%;
 }
 
 #reviews swiper-slide img {
