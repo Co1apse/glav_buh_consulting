@@ -24,7 +24,7 @@ swiper-slide {
 }
 
 swiper-slide p {
-    max-width: 400px;
+    max-width: 390px;
 }
 
 #reviews swiper-slide {
@@ -33,7 +33,6 @@ swiper-slide p {
 
 .mySwiper {
     height: 380px;
-    width: 92%;
 }
 
 #reviews swiper-slide img {
