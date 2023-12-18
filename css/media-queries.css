@@ -1,7 +1,7 @@
 /* 4k*/
 @media  (min-width: 2100px) and (max-width: 2560px) {
     .news__block {
-        width: 95%;
+        width: 100%;
         min-width: 1400px;
     }
 
