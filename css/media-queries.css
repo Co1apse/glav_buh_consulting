@@ -631,6 +631,10 @@
 /* mobile */
 @media screen and (width < 500px) {
 
+    .mySwiper {
+        height: 625px;
+    }
+
     .news img {
         width: 360px;
         height: 360px;
@@ -883,11 +887,28 @@
         border-radius: 15px;
     }
 
+    .mySwiper {
+        height: 625px;
+    }
+
 }
 @media screen and (width < 360px) {
     .news img {
         width: 324px;
         height: 324px;
         border-radius: 15px;
+    }
+    .mySwiper {
+        height: 1025px;
+    }
+    swiper-slide {
+        font-size: 14px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: left;
+        height: 625px;
     }
 }
