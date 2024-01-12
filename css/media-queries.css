@@ -920,7 +920,7 @@
 
     .contact-container {
         position: fixed;
-        right: 80px;
+        right: 10px;
         z-index: 6;
         top: 20px;
         transform: translateY(-200%);
@@ -950,7 +950,7 @@
 
     .contact-container {
         position: fixed;
-        right: 30px;
+        right: 0;
         z-index: 6;
         top: 40px;
         transform: translateY(-200%);
