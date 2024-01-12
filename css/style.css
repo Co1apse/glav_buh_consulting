@@ -514,8 +514,39 @@ section .container h2 {
     align-items: center;
 }
 
-.swiper-slide img {
+.filter img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
+    filter: grayscale(100%);
+}
+
+.filter img:hover {
+    filter: grayscale(0%);
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    vertical-align: bottom;
+}
+
+.swiper-slide p {
+    max-width: 390px;
+    text-align: center;
+}
+
+#reviews swiper-slide img {
+    border-radius: 0;
+    width: 360px;
+    height: 160px;
+    margin-bottom: 10px;
+
+    background-position:center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.review {
+    margin-top: 20px;
 }
