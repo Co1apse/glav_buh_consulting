@@ -9,10 +9,10 @@
 
 
   <!-- Links -->
-
-  <link rel="stylesheet" href="css/reset.css" type="text/css">
-  <link rel="stylesheet" href="css/style.css" type="text/css">
-  <link rel="stylesheet" href="css/media-queries.css" type="text/css">
+    <link rel="stylesheet" href="css/swiper-bundle.css" type="text/css">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/media-queries.css" type="text/css">
 
 
 
@@ -388,55 +388,80 @@
                 <h2> Наша команда </h2>
             </div>
 
-            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" speed="800">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
 
-                <!---------------------------1-------------------------->
+                    <!---------------------------1-------------------------->
 
-                <swiper-slide class="filter">
-                    <img src="assets/team/Irina.jpg" alt="">
-                    <br/>
-                    <h3>
-                        Любицька Ірина Валеріївна
-                    </h3>
-                    <p>Генеральний директор</p>
-                </swiper-slide>
+                    <div class="swiper-slide filter">
+                        <img src="assets/team/Irina.jpg" alt="">
+                        <br/>
+                        <h3 style="text-align: center">Любицька Ірина Валеріївна</h3>
+                        <p>Генеральний директор</p>
+                    </div>
 
-                <!---------------------------2-------------------------->
+                    <!---------------------------2-------------------------->
 
-                <swiper-slide class="filter">
-                    <img src="assets/team/Denis.jpg" alt="">
-                    <br/>
-                    <h3>
-                        Григоренко Денис В'ячеславович
-                    </h3>
-                    <p>Директор з розвитку</p>
-                </swiper-slide>
+                    <div class="swiper-slide filter">
+                        <img src="assets/team/Denis.jpg" alt="">
+                        <br/>
+                        <h3 style="text-align: center">Григоренко Денис В'ячеславович</h3>
+                        <p>Директор з розвитку</p>
+                    </div>
 
-                <!--------------------------3--------------------------->
+                    <!--------------------------3--------------------------->
 
-                <swiper-slide class="filter">
-                    <img src="assets/team/Julia.jpg" alt="">
-                    <br/>
-                    <h3>Лєнкар Юлія Володимирівна</h3>
-                    <p>Спеціаліст з роботи ФОП</p>
-                </swiper-slide>
+                    <div class="swiper-slide filter">
+                        <img src="assets/team/Julia.jpg" alt="">
+                        <br/>
+                        <h3 style="text-align: center">Лєнкар Юлія Володимирівна</h3>
+                        <p>Спеціаліст з роботи ФОП</p>
+                    </div>
 
-                <!---------------------------4-------------------------->
+                    <!---------------------------4-------------------------->
 
-                <swiper-slide class="filter">
-                    <img src="assets/team/Elena.jpg" alt="" style="background-position: left top">
-                    <br/>
-                    <h3>Ходос Олена Павлівна</h3>
-                    <p>Спеціаліст з роботи ТОВ</p>
-                </swiper-slide>
+                    <div class="swiper-slide filter">
+                        <img src="assets/team/Elena.jpg" alt="" style="background-position: left top">
+                        <br/>
+                        <h3 style="text-align: center">Ходос Олена Павлівна</h3>
+                        <p>Спеціаліст з роботи ТОВ</p>
+                    </div>
 
 
-            </swiper-container>
+                </div>
 
-            <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+                <div class="swiper-pagination"></div>
+            </div>
         </div>
 
     </section>
+
+    <script src="JS/swiper-bundle.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper-container', {
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            slidesPerView: 1,
+            // Responsive breakpoints
+            breakpoints: {
+                1440: {
+                    slidesPerView: 3,
+                },
+                1024: {
+                    slidesPerView: 2,
+                },
+                768: {
+                    slidesPerView: 1,
+                }
+
+            }
+
+        });
+    </script>
+
 
 
 
@@ -497,10 +522,6 @@
 </footer>
 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-<link rel="stylesheet" href="css/slider.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
 
 
 <script>
@@ -516,11 +537,6 @@
         contact_container.classList.remove('visible')
     });
 
-
-
-
-
-
     <!--  Burger-menu -->
     let menuBtn = document.querySelector('.menu-btn');
     let menu = document.querySelector('.menu');
@@ -529,24 +545,6 @@
         menuBtn.classList.toggle('active');
         menu.classList.toggle('active');
     });
-
-
-
-
-    <!-- Slider -->
-    const swiper = new Swiper('.swiper', {
-
-        spaceBetween: 30,
-
-        pagination: {
-            el:'.swiper.pagination',
-            clickable: true,
-            scrollspeed: 500,
-        },
-
-    });
-
-
 </script>
 
 
