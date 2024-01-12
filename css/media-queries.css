@@ -333,10 +333,19 @@
         border-radius: 15px;
     }
 
+    .contact-container {
+        position: fixed;
+        right: 140px;
+        z-index: 6;
+        top: 20px;
+        transform: translateY(-200%);
+        transition: transform 0.4s ease-in-out;
+    }
+
 }
 
 /* tablet */
-@media (min-width: 500px ) and (max-width: 767px) {
+@media (width > 500px ) and (width < 767px) {
 
 
 
@@ -626,10 +635,19 @@
         width: 80%;
     }
 
+    .contact-container {
+        position: fixed;
+        right: 140px;
+        z-index: 6;
+        top: 20px;
+        transform: translateY(-200%);
+        transition: transform 0.4s ease-in-out;
+    }
+
 }
 
 /* mobile */
-@media screen and (width < 500px) {
+@media (width > 401px ) and (width < 499px) {
 
     .mySwiper {
         height: 625px;
@@ -878,6 +896,15 @@
         margin-bottom: 0;
     }
 
+    .contact-container {
+        position: fixed;
+        right: 80px;
+        z-index: 6;
+        top: 20px;
+        transform: translateY(-200%);
+        transition: transform 0.4s ease-in-out;
+    }
+
 
 }
 @media (width > 360px) and (width < 400px){
@@ -891,6 +918,15 @@
         height: 625px;
     }
 
+    .contact-container {
+        position: fixed;
+        right: 80px;
+        z-index: 6;
+        top: 20px;
+        transform: translateY(-200%);
+        transition: transform 0.4s ease-in-out;
+    }
+
 }
 @media screen and (width < 360px) {
     .news img {
@@ -901,7 +937,7 @@
     .mySwiper {
         height: 1025px;
     }
-    swiper-slide {
+    .swiper-slide {
         font-size: 14px;
         background: #fff;
         display: flex;
@@ -911,4 +947,14 @@
         text-align: left;
         height: 625px;
     }
+
+    .contact-container {
+        position: fixed;
+        right: 30px;
+        z-index: 6;
+        top: 40px;
+        transform: translateY(-200%);
+        transition: transform 0.4s ease-in-out;
+    }
+
 }
