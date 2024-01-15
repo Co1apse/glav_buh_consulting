@@ -647,7 +647,7 @@
 }
 
 /* mobile */
-@media (width > 401px ) and (width < 499px) {
+@media (width >= 401px ) and (width < 499px) {
 
     .mySwiper {
         height: 625px;
@@ -673,10 +673,6 @@
         background-image: url('/assets/head/head-img.png');
         background-repeat: no-repeat;
         background-size: cover;
-    }
-
-    .footer-logo {
-        display: none;
     }
 
     .phone {
@@ -754,19 +750,19 @@
     }
 
     .footer__contact .container {
-        margin: 0;
+        margin: 0 0 0 5px;
     }
 
     .row {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         margin-left: 15px;
-        min-width: 300px;
+        max-width: 380px;
     }
 
     .phone {
         margin-left: 5px;
-        margin-right: 18px;
+        margin-right: 5px;
     }
 
     .container h2 {
@@ -905,9 +901,25 @@
         transition: transform 0.4s ease-in-out;
     }
 
+    .email {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title__section {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin: 0 auto 15px;
+    }
+
+    .title__section p {
+        width: 90%;
+    }
+
 
 }
-@media (width > 360px) and (width < 400px){
+@media (width > 360px) and (width <= 400px){
     .news img {
         width: 324px;
         height: 324px;
@@ -939,8 +951,48 @@
         transition: transform 0.4s ease-in-out;
     }
 
+    .footer-logo {
+        width: 0;
+        display: none;
+    }
+
+    .footer__contact .container {
+        max-width: 330px;
+    }
+
+    .row {
+        margin-left: -10px;
+    }
+
+    .phone {
+        margin-right: 20px;
+    }
+
+    .phone a {
+        font-size: 10px;
+    }
+
+    .email {
+        margin: 0;
+    }
+
+    .email a {
+        font-size: 10px;
+    }
+
+    title__section {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin: 0 auto 15px;
+    }
+
+    .title__section p {
+        width: 90%;
+    }
+
 }
-@media screen and (width < 360px) {
+@media screen and (width <= 360px) {
     .news img {
         width: 324px;
         height: 324px;
@@ -980,6 +1032,46 @@
         top: 40px;
         transform: translateY(-200%);
         transition: transform 0.4s ease-in-out;
+    }
+
+    .footer-logo {
+        width: 0;
+        display: none;
+    }
+
+    .footer__contact .container {
+        max-width: 300px;
+    }
+
+    .row {
+        margin-left: -10px;
+    }
+
+    .phone {
+        margin-right: 10px;
+    }
+
+    .phone a {
+        font-size: 10px;
+    }
+
+    .email {
+        margin: 0;
+    }
+
+    .email a {
+        font-size: 10px;
+    }
+
+    title__section {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin: 0 auto 15px;
+    }
+
+    .title__section p {
+        width: 90%;
     }
 
 }
